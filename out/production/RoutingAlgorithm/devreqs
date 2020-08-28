@@ -1,0 +1,18 @@
+Requirements
+_______________________________________________________
+Modular (able to swap in and out algorithms, rules, etc)
+Easy to integrate into the existing code base
+Easy to understand and develop against in the future
+Well documented
+Flexible enough to add obstacles, etc. later on
+
+Specifications
+_______________________________________________________
+10m x 10m cells on a 10 x 10 grid as dummy data
+Single depot located somewhere on grid
+Only able to move between center points of adjacent cells
+    adjacent includes diagonals, but at sqrt(2) scaled cost
+Data is a grid, not a graph
+Obstacles to model buildings
+3 units and 5 tasks for the simple case
+Route each unit to the depot to get supplies, then leave the depot to their next location
