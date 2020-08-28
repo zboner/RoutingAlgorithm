@@ -30,7 +30,7 @@ public class Depot {
     }
 
     private static boolean validateID(int id) {
-        return (id > 0 && id < 4);
+        return (id >= 0 && id < 4);
     }
 
     public Position getPosition() {
